@@ -44,5 +44,4 @@ export default defineConfig({
             ]
         })
     ],
-    outputDirectory: "vendor"
 });
