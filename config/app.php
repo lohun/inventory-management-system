@@ -189,6 +189,7 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'Example' => App\Facades\Example::class,
+        'ColumnSortable' => \Kyslik\ColumnSortable\ColumnSortableServiceProvider::class
     ])->toArray(),
 
 ];
