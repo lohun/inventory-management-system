@@ -6,9 +6,7 @@
             "runtime": "vercel-php@0.5.4"
         }
     },
-    "build": {
-        "buildCommand": "composer install"
-    },
+    "buildCommand": "composer install",
     "routes": [
         {
             "src": "/(.*)",
