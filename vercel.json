@@ -3,8 +3,11 @@
     "framework": null,
     "functions": {
         "api/index.php": {
-            "runtime": "vercel-php@0.7.3"
+            "runtime": "vercel-php@0.5.4"
         }
+    },
+    "build": {
+        "command": "composer install"
     },
     "routes": [
         {
