@@ -6,7 +6,7 @@
             "runtime": "vercel-php@0.5.4"
         }
     },
-    "buildCommand": "composer install",
+    "buildCommand": "composer.phar install",
     "routes": [
         {
             "src": "/(.*)",
